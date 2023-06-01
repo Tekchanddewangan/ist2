@@ -1,7 +1,7 @@
 //require the library
 const mongoose = require('mongoose');
 //connect to the database
-mongoose.connect('mongodb+srv://tekchanddewangan9:teku0000@cluster0.4p7w1pd.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://tekchanddewangan9:<password>@cluster0.4p7w1pd.mongodb.net/?retryWrites=true&w=majority');
 
 //acquire the connection(to check if it's successful)
 const db = mongoose.connection;
